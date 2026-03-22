@@ -6,7 +6,7 @@ from deepeval.models import GeminiModel
 def test_rag():
     gemini_judge = GeminiModel(
         model="gemini-2.5-flash",
-        api_key="AIzaSyDTbHGh3NzSYLdmq7GqvRCiGu7MY-lqEo8"
+        api_key="API-KEY"
     )
 
     faithfulness_metric = FaithfulnessMetric(
